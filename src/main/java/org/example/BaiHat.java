@@ -1,0 +1,18 @@
+package org.example;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class BaiHat {
+    private String id;
+    private String ten;
+    private String tenCaSi;
+    private int doDai;
+    private String tenNhacSi;
+}
